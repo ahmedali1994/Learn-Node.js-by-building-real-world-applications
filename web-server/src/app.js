@@ -52,7 +52,7 @@ app.get("/weather", (req, res) => {
 });
 
 app.get("/about", (req, res) => {
-  res.send("about ");
+  res.render("about");
 });
 
 app.get("*", (req, res) => {
